@@ -1,0 +1,79 @@
+<html>  
+<head>  
+    <script type="text/javascript" src="script.js"></script>  
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body onload="fianlproject()"> 
+    <div>
+        <h1 class="section">Analysis of Pollution Data in the United States</h2>
+        Welcome to our webpage on air pollution in the United States! 
+
+        <br><br>Air pollution is a significant environmental issue tha affects both the quality of the air we breathe and the health of our communities. Understanding the distribution, trends, and factors influencing air pollution is crucial for developing effective strategies to mitigate its impact. In this webpage, we explore a comprehensive dataset on air pollution in the United States, aiming to provide insights into pollution levels, variations across regions, temporal trends, and potential contributing factors. Join us on this journey as we delve into the data and uncover key findings about air pollution in the United States.
+        
+        <h3>
+        The four main pollutants that contribute to air pollution, each measured in parts per million (ppm), are NO2, O3, SO2, and CO. Please be advised that the units of O3, CO, SO2, and NO2 are 10000 ppm, 1000 ppm, 0.1 ppm, and 0.01 ppm, respectively.
+        
+    </div>
+    
+    <div>
+        <h3>Yearly Trends of Pollutants in the US</h3>
+        <div id="q1"></div>
+        <div id="q1_plot" class="center_plot"></div>
+        <div id="q1_explanation">
+            The data analysis of air pollutants (NO2, O3, SO2, and CO) collected in the United States from 2000 to 2016 reveals an overall decreasing trend in air pollution levels during this period. This decline can be attributed to the development of industries and increased environmental awareness, especially in more developed regions. However, it is noteworthy that ozone (O3) levels show a slight increase each year, warranting attention as it constitutes a significant portion of the air pollutants. Further investigation is required to identify the underlying causes of this ozone rise, which could be influenced by various factors such as climate changes and specific emission sources. Sustained efforts in monitoring, awareness, and targeted pollution control measures are essential to ensure continued progress in reducing air pollution and addressing the challenge of rising ozone concentrations.
+        </div>
+    </div>
+    
+    <div>
+        <h3>Distribution of Pollutants by State</h3>
+        <div id="q2"></div>
+        <div id="q2_plot" class="center_plot"></div>
+        <div id="q2_explanation">
+            The overall trend of air pollutants in the United States has shown improvement over the years, indicating progress in environmental awareness and regulations. However, it is important to note that not all states emit the same levels of air pollutants. When comparing the average values from 2000 to 2016 across all states, it becomes evident that states with large cities, businesses, and industrial activities, such as Missouri and New York, exhibit higher levels of air pollutants. This correlation suggests that population density and industrialization contribute to increased emissions.
+
+            <br><br>Interestingly, Alaska stands out with a relatively high distribution of air pollutants, particularly sulfur dioxide (SO2), despite its small population and vast natural environment. This discrepancy can be attributed to the significant volcanic activity in Alaska, resulting from natural phenomena. Volcanic eruptions release substantial amounts of SO2 into the atmosphere, leading to elevated concentrations of this pollutant in the state.
+
+            <br><br>Furthermore, it is worth mentioning that Washington, D.C. emits more air pollutants than Mexico, highlighting the need for continuous attention and effective solutions to address air pollution issues in the country's capital.
+
+            <br><br>While the overall trend indicates progress in reducing air pollutants, understanding the specific factors contributing to higher emissions in certain states, such as industrial activities and natural events like volcanic eruptions, is crucial for implementing targeted strategies to further improve air quality across the United States.
+        </div>
+    </div>
+    
+    <div>
+        <h3>Linked Data State</h3>
+        <div id="q3"></div>
+        <div id="q3_plot" class="center_plot"></div>
+        <div id="q3_explanation">
+            The pollution data for the year 2016 was analyzed to investigate the relationship between states based on their O3 Mean pollutant levels, which is considered the most significant and influential air pollutant. The average O3 Mean was calculated for each state, leading to the identification of two distinct groups: states with higher O3 Mean values than the average, and states with lower O3 Mean values.
+
+            <br><br>To provide a comprehensive view of the connections between states based on their O3 Mean pollutant levels, the graph was designed to highlight the central states with higher O3 Mean values, showcasing their interconnectedness with other states surpassing the average O3 Mean.
+
+            <br><br>Interactive features were incorporated to enhance the visualization experience. Users were able to zoom in and out of the graph to examine the connections in more detail. When hovering over a state node, a tooltip displayed the name of the state.
+        </div>
+    </div>
+    
+    <div>
+        <h3>Distribution of Pollutants among States</h3>
+        <div id="q4"></div>
+        <div id="q4_plot" class="center_plot"></div>
+        <div id="q4_explanation">
+            The U.S. map depicting the distribution of air pollutants among states reveals intriguing patterns and highlights the complex factors influencing pollution levels. With Hawaii and Alaska excluded from the analysis to eliminate the influence of volcanic activity, Missouri emerges as a surprising state with higher pollutant levels compared to densely populated areas like California. This discrepancy suggests that factors beyond population density play a significant role in pollutant emissions, potentially related to industrial activities or other localized sources in Missouri. Further investigation is necessary to identify the specific sources contributing to Missouri's elevated pollution levels.
+
+            <br><br>Additionally, the map showcases a clear contrast between the eastern and western regions of the United States. The eastern states exhibit a horizontal line of pollutants stretching across the country, indicating higher concentrations in this area. This observation aligns with the presence of numerous companies, factories, and industrial activities in the eastern states. The clustering of pollutants in close proximity suggests the cumulative impact of localized sources in the vicinity, contributing to a more concentrated and pronounced pollution pattern.
+
+            <br><br>The distribution of air pollutants illustrated by the U.S. map underscores the influence of various factors on pollution levels. It highlights the importance of considering localized sources and industrial activities beyond population density when analyzing air pollution patterns. The map also emphasizes the need for targeted pollution reduction strategies in specific regions and states, particularly those exhibiting unexpectedly high pollutant levels. 
+        </div>
+    </div>
+    <div>
+        <h3>Conclusion</h3>
+        <div id="conclusion">
+            In conclusion, our analysis of air pollution data in the United States provides valuable insights into the distribution, trends, and contributing factors of pollutants. Overall, the trends show a decline in air pollution levels over the years, indicating progress in environmental awareness and regulations. However, variations exist among states, with densely populated areas and industrial centers generally exhibiting higher pollutant levels.
+    
+            It is important to consider specific factors contributing to pollution disparities, such as industrial activities, population density, and natural events like volcanic eruptions. Understanding these factors enables the implementation of targeted strategies to further improve air quality and address pollution hotspots.
+    
+            Our analysis also highlights the need for continuous monitoring, awareness, and pollution control measures to ensure sustained progress in reducing air pollution. By addressing localized sources and considering regional characteristics, policymakers and stakeholders can work towards effective solutions for cleaner air and healthier communities across the United States.
+        </div>
+    </div>
+</body>  
+</html>
